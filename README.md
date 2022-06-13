@@ -11,9 +11,15 @@ The easiest way to install BRAT is to use it as a standalone server on Linux sys
 tar -zxf brat-1.3p1.tar.gz --directory ~/BRAT-annotation/
 cd ~/BRAT-annotation/brat-1.3p1/
 ````````````````````````````````````````````````````````
+
+**Step-3:** Install BRAT as a standalone server.
+```````````````
+./install.sh -u 
+```````````````
+
 Note that BRAT is compatible with Python versions 2.\*. If you are a linux user, you already have Python-2 installed in your system. If not, create a separate conda environment with Python-2.*.
 
-**Step-3:** Run the following commands to create and activate your desired cond environment
+**Step-4:** Run the following commands to create and activate your desired cond environment
 ````````````````````````````````````
 module load anaconda
 conda create --name brat python=2.7
@@ -21,5 +27,30 @@ conda init bash
 conda activate brat
 ````````````````````````````````````
 
-**Step-4:** Replace the `/brat-1.3p1/annottaion.config` inside the installer with `~/BRAT-annotation/annotation.config` 
+**Step-5:** Replace the `./brat-1.3p1/annottaion.conf` inside the installer with `~/BRAT-annotation/annotation.conf` 
+
+**Step-6:** Replace `./brat-1.3p1/data/` folder by `~/BRAT-annotation/data/`
+
+**Step-7:** Run BRAT on your local server.
+`````````````````````
+python2 standalone.py
+`````````````````````
+Usually, it will be served through `http://127.0.0.1:8001`. Open the port and you will see an interface as follows :
+
+![Alt text](deepqpp_model.png?raw=true "Title")
+
 ## Annotation
+
+**Step-1:** Select any document to be annotated.
+
+![Alt text](deepqpp_model.png?raw=true "Title")
+
+**Step-2:** Choose the piece of the text you want to mark. Once selected, you will see a pop-up like below : 
+
+![Alt text](deepqpp_model.png?raw=true "Title")
+
+Your marked text will be stored in the corresponding `doc_name.ann` file.
+
+
+
+
