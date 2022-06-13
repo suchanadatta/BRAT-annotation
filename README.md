@@ -35,7 +35,7 @@ conda activate brat
 `````````````````````
 python2 standalone.py
 `````````````````````
-Usually, it will be served through `http://127.0.0.1:8001`. Open the port and you will see an interface as follows :
+Generally, it will be served through `http://127.0.0.1:8001`. Open the port and you will see an interface as follows :
 
 ![Alt text](brat_coll.png?raw=true "Title")
 
