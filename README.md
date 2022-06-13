@@ -19,7 +19,7 @@ cd ~/BRAT-annotation/brat-1.3p1/
 
 Note that BRAT is compatible with Python versions 2.\*. If you are a linux user, you already have Python-2 installed in your system. If not, create a separate conda environment with Python-2.*.
 
-**Step-4:** Run the following commands to create and activate your desired cond environment
+**Step-4:** Run the following commands to create and activate your desired conda environment
 ````````````````````````````````````
 module load anaconda
 conda create --name brat python=2.7
