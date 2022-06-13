@@ -37,19 +37,19 @@ python2 standalone.py
 `````````````````````
 Usually, it will be served through `http://127.0.0.1:8001`. Open the port and you will see an interface as follows :
 
-![Alt text](deepqpp_model.png?raw=true "Title")
+![Alt text](brat_coll.png?raw=true "Title")
 
 ## Annotation
 
-**Step-1:** Select any document to be annotated.
+Select any document to be annotated. Choose the piece of the text you want to mark. Once selected, you will see a pop-up like below : 
 
-![Alt text](deepqpp_model.png?raw=true "Title")
-
-**Step-2:** Choose the piece of the text you want to mark. Once selected, you will see a pop-up like below : 
-
-![Alt text](deepqpp_model.png?raw=true "Title")
+![Alt text](brat_ann.png?raw=true "Title")
 
 Your marked text will be stored in the corresponding `doc_name.ann` file.
+
+![Alt text](brat_look.png?raw=true "Title")
+
+
 
 
 
