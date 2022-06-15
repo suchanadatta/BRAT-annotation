@@ -8,15 +8,15 @@ fi
 
 destPath=`readlink -f $1`
 destPath=$destPath"/"
-echo $destPath
+#echo $destPath
 
 for dir in ./data/*
 	do echo $dir
 	for file in "$dir"/*
-		do echo $file
+		#do echo $file
 		if [[ $file == *.ann ]]
 		then
-			echo "========="
+			#echo "========="
 			mv $file $destPath
 		fi
 	done
